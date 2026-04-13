@@ -2,10 +2,12 @@
 
 Implementação do problema Lights Out utilizando diferentes algoritmos de busca:
 
-- BFS
-- DFS
-- Greedy
-- A*
-- Hill Climbing
+- Bsuca em Largura (bfs.py)
+- Busca em Profundidade (dfs.py)
+- Busca Gulosa (greedy.py)
+- Busca Local (hill_climbing.py)
+- Algoritmo A (astar.py)
+- utils.py
+- main.py
 
 Aluno: Gabriel Tokarski Almeida
