@@ -11,7 +11,8 @@ Implementação do problema Lights Out utilizando diferentes algoritmos de busca
 - main.py
 
 Instruções: 
--> Faça o Download.ZIP do repo e rode no CMD / Powershell
+-> Faça o Download.ZIP do repositório
+-> Abra um terminal CMD / Powershell na pasta inteligencia-artificial/estudo-dirigido-1/codigo-fonte/
 -> bash: python main.py
 
 
