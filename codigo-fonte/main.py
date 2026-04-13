@@ -18,7 +18,10 @@ def generate_board(n):
 # 2x2
 # =========================
 print("\n=== TABULEIRO 2x2 ===")
-state_2x2 = generate_board(2)
+state_2x2 = [
+    [1, 0],
+    [0, 1]
+]
 
 run_test("BFS", bfs, state_2x2)
 run_test("DFS", dfs, state_2x2)
@@ -31,9 +34,9 @@ run_test("Hill Climbing", hill_climbing, state_2x2)
 # =========================
 print("\n=== TABULEIRO 3x3 ===")
 state_3x3 = [
-    [0,1,0],
-    [1,0,1],
-    [0,1,0]
+    [1, 0, 1],
+    [0, 1, 0],
+    [1, 0, 1]
 ]
 
 run_test("BFS", bfs, state_3x3)
@@ -47,11 +50,11 @@ run_test("Hill Climbing", hill_climbing, state_3x3)
 # =========================
 print("\n=== TABULEIRO 5x5 ===")
 state_5x5 = [
-    [0,0,0,0,0],
-    [0,0,0,0,0],
-    [0,0,1,0,0],
-    [0,0,0,0,0],
-    [0,0,0,0,0],
+    [0, 1, 0, 1, 0],
+    [1, 0, 1, 0, 1],
+    [0, 1, 1, 1, 0],
+    [1, 0, 1, 0, 1],
+    [0, 1, 0, 1, 0],
 ]
 
 print("BFS: não executado (alto custo)")
@@ -65,7 +68,15 @@ run_test("Hill Climbing", hill_climbing, state_5x5)
 # 7x7
 # =========================
 print("\n=== TABULEIRO 7x7 ===")
-state_7x7 = generate_board(7)
+state_7x7 = [
+    [0,1,0,1,0,1,0],
+    [1,0,1,0,1,0,1],
+    [0,1,0,1,0,1,0],
+    [1,0,1,1,1,0,1],
+    [0,1,0,1,0,1,0],
+    [1,0,1,0,1,0,1],
+    [0,1,0,1,0,1,0],
+]
 
 print("BFS: não executado (inviável)")
 print("DFS: não executado (inviável)")
@@ -78,7 +89,18 @@ run_test("Hill Climbing", hill_climbing, state_7x7)
 # 10x10
 # =========================
 print("\n=== TABULEIRO 10x10 ===")
-state_10x10 = generate_board(10)
+state_10x10 = [
+    [0,1,0,1,0,1,0,1,0,1],
+    [1,0,1,0,1,0,1,0,1,0],
+    [0,1,0,1,0,1,0,1,0,1],
+    [1,0,1,0,1,0,1,0,1,0],
+    [0,1,0,1,1,1,0,1,0,1],
+    [1,0,1,0,1,0,1,0,1,0],
+    [0,1,0,1,0,1,0,1,0,1],
+    [1,0,1,0,1,0,1,0,1,0],
+    [0,1,0,1,0,1,0,1,0,1],
+    [1,0,1,0,1,0,1,0,1,0],
+]
 
 print("BFS: não executado (inviável)")
 print("DFS: não executado (inviável)")
