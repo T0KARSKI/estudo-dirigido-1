@@ -6,7 +6,7 @@ Implementação do problema Lights Out utilizando diferentes algoritmos de busca
 - Busca em Profundidade (dfs.py)
 - Busca Gulosa (greedy.py)
 - Busca Local (hill_climbing.py)
-- Algoritmo A (astar.py)
+- Bsuca Estrela (astar.py)
 - utils.py
 - main.py
 - .gitignore
